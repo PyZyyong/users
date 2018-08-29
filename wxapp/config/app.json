@@ -1,0 +1,66 @@
+{
+  "ext":{
+    "name_code":"demo1",
+    "title":"商城"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/shareImage/shareImage",
+    "pages/groupPurchase/yourGroupPurchase/yourGroupPurchase",
+    "pages/orderInfo/orderInfo",
+    "pages/test/test",
+    "pages/projectDetail/allowpurchaseDetail/allowpurchaseDetail",
+    "pages/groupPurchase/myGroupPurchase/myGroupPurchase",
+    "pages/evaluate/evaluate",
+    "pages/bargainActive/BargainActiveList/BargainActiveList",
+    "pages/coupon/coupon",
+    "pages/bargainActive/BargainActiveOrganizer/BargainActiveOrganizer",
+    "pages/purchase/purchaseList/purchaseList",
+    "pages/myOrder/myOrder",
+    "pages/groupPurchase/groupPurchaseDetail/groupPurchaseDetail",
+    "pages/submitOrder/submitOrder",
+    "pages/sharecoupon/sharecoupon",
+    "pages/bargainActive/BargainActiveParticipant/BargainActiveParticipant",
+    "pages/purchase/purchaseDetail/purchaseDetail",
+    "pages/bargainActive/BargainActiveDetail/BargainActiveDetail",
+    "pages/groupPurchase/groupPurchaseList/groupPurchaseList",
+    "pages/hospitalBrand/hospitalBrand",
+    "pages/projectDetail/obtainedDetail/obtainedDetail",
+    "pages/myInfo/myInfo",
+    "pages/scopeProject/scopeProject",
+    "pages/allcoupon/allcoupon"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#ABABAB ",
+    "selectedColor": "#F65058",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbarIcon/tab_home.png",
+        "selectedIconPath": "images/tabbarIcon/tab_home_active.png"
+      },
+      {
+        "pagePath": "pages/hospitalBrand/hospitalBrand",
+        "text": "品牌",
+        "iconPath": "images/tabbarIcon/tab_brand.png",
+        "selectedIconPath": "images/tabbarIcon/tab_brand_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tabbarIcon/tab_user.png",
+        "selectedIconPath": "images/tabbarIcon/tab_user_active.png"
+      }
+    ]
+  }
+}
